@@ -18,3 +18,8 @@ jobs:
       - name: Lint
         run: |
           R -e 'lintr::lint_dir()'
+
+      - name: Run scrpits
+        run: |
+          Rscript -e 'source("simulation_poisson.R")'
+          Rscript -e 'source("tests_stats_on_data.R")'
