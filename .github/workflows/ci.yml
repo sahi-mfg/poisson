@@ -22,4 +22,4 @@ jobs:
       - name: Run scrpits
         run: |
           Rscript -e 'source("simulation_poisson.R")'
-          Rscript -e 'source("tests_stats_on_data.R")'
+          Rscript -e 'source("test_stats_on_data.R")'
