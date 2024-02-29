@@ -15,7 +15,6 @@ jobs:
       - name: Install dependencies
         run: |
           R -e 'install.packages("lintr")'
-          R -e 'remotes::install_deps(dependencies = TRUE)'
       - name: Lint
         run: |
           R -e 'lintr::lint_package()'
