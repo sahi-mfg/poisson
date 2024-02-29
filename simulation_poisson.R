@@ -48,7 +48,7 @@ simul_poisson_temps <- function(temps, lambda) {
 t <- simul_poisson_temps(100, 10)
 plot(t, type = "s", ylab = "N(t)", xlab = "t", col = "red")
 
-# test statistique (de Kolmogorov-Smirnov) pour verifier
+# test statistique (de Kolmogorov-Smirnov) pour vérifier
 # qu'on a bien un processus de poisson
 # On regarde si les temps inter-arrivées suivent une loi exponentielle
 # de paramètre 1/lambda
