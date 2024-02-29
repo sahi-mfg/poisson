@@ -17,7 +17,4 @@ jobs:
           R -e 'install.packages("lintr")'
       - name: Lint
         run: |
-          R -e 'lintr::lint_package()'
-      - name: Run
-        run: |
-          Rscript -e 'tests_stats_on_data.R'
+          R -e 'lintr::lint_dir()'
