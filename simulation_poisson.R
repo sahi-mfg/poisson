@@ -27,7 +27,7 @@ legend("topright",
   legend = c(
     "lambda = 5", "lambda = 6", "lambda = 10", "lambda = 50"
   ),
-  col = c("red", "black", "blue", "green"),
+  col = c("red", "orange", "blue", "green"),
   lty = 1, cex = 0.8
 )
 
